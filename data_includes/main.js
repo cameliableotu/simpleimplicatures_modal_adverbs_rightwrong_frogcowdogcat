@@ -25,6 +25,9 @@ PennController( "welcome" ,
 	    newTextInput ("Profession")  
         .print()
 	       ,
+	       newText ("<p> To move to the next page, always use the space bar. </p>")
+	       .print()
+	       ,
 	       
     newButton("Start")
         .print()
@@ -96,7 +99,7 @@ PennController("trialbunny" ,
 	    
 	       ,
 	       newText 
-	       ("<p> Hop he goes behind the curtain. The baby dragon sees the following shadow. </p>"),
+	       ("<p> Hop he goes behind the curtain. The baby dragon sees the following shadow. To reward the dragon, just click on the apple you want to give him. </p>"),
 	      
 	       newImage ("bunnyshadow2", "bunnyshadow2.jpg")
 	       .print ( )
@@ -909,7 +912,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now the shadow of the frog is still on but the blue frog has come back on stage.</p>")
+	       newText ("<p> Now the shadow of the frog is still there but the blue frog has come back on stage.</p>")
 	          ,        
 	     newImage ("bluefrog.png")
                .print ()
@@ -1436,7 +1439,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now the shadow of the cat is still on but the green cat has come back on stage.</p>")
+	       newText ("<p> Now the shadow of the cat is still there but the green cat has come back on stage.</p>")
 	          ,        
 	     newImage ("greencat.jpg")
                .print ()
@@ -1614,7 +1617,7 @@ PennController ("experiment",
 		newImage ("catshadow.jpg")
                .print ()
 		,
-		newText ("<p> Baby Dragon: It is possible that it is the green cat.</p>")
+		newText ("<p> Baby Dragon: It is certain that it is the green cat.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1965,7 +1968,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now the shadow of the cow is still on but the orange cow has come back on stage.</p>")
+	       newText ("<p> Now the shadow of the cow is still there but the orange cow has come back on stage.</p>")
 	          ,        
 	     newImage ("orangecow.png")
                .print ()
