@@ -135,8 +135,7 @@ newSelector()
     .settings.log()
     .wait()
 )
-.log( "ID" , getVar("ID") 
-   .log ("Trialfalse"))
+.log( "ID" , getVar("ID"))
 ;
 PennController("trialbunny2" ,
 	    defaultText
