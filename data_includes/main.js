@@ -55,9 +55,10 @@ PennController("details" ,
 	        .print()
 	    
 	       ,
-newText ("<p> Now Merlin is playing the shadow game with a really cute baby dragon, who has to guess whose animal the shadow belongs to.</p>")
+newText ("<p> Now Merlin is playing the shadow game with a really cute baby dragon, who has to guess whose animal the shadow belongs to. </p>")
 	,
-newText ("<p> When he guesses the shadow correctly, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrong, you'll just give him a tiny apple.  </p>")
+  newText ("<p> To help the baby dragon, alongside the shadow, you will see all the animals in the game on the side, as well as the animals which are on stage. </p>")
+newText ("<p> When the baby dragon guesses the shadow correctly, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrong, you'll just give him a tiny apple.  </p>")
 ,
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
