@@ -2398,7 +2398,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now let's see who the shadow belongs to.Pam-pam! It's the green cow! </p>")
+	       newText ("<p> Now let's see who the shadow belongs to. Pam-pam! It's the green cow! </p>")
 	         ,         
 	     newImage ("greencowrevealedonstage","greencowrevealedonstage.jpg")
                .print ()
