@@ -1954,7 +1954,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadowallanimals","cowshadowallanimals.png")
+		newImage ("cowshadowallcows","cowshadowallcows.png")
                .print ()
 		,
 		newText ("<p> Baby Dragon: It is certain that it is a cow. </p>")
