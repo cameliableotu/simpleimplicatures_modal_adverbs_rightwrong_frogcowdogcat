@@ -7,7 +7,7 @@ PennController( "welcome" ,
     ,
     newText("<p> Hey everyone! </p>")
     ,
-    newText("<p> Hey, everyone, we are going to play a really fun and nice game together with a wizard, a baby dragon, some shadows belonging to some animals and sounds they make (So keep sound on.)</p>" ),
+    newText("<p> Hey, everyone, we are going to play a really fun and nice game together with a wizard, a baby dragon, some shadows belonging to some animals and the sounds they make (So keep sound on.)</p>" ),
     newText("<p>Please enter your ID, answer some questions and then click the button below to start the experiment.</p>")
     ,
     newTextInput("ID")
