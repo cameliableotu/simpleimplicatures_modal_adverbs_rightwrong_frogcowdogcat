@@ -57,7 +57,7 @@ PennController("details" ,
 	       ,
 newText ("<p> Now Merlin is playing the shadow game with a really cute baby dragon, who has to guess whose animal the shadow belongs to. </p>")
 	,
-  newText ("<p> To help the baby dragon, alongside the shadow, you will see all the animals in the game on the side, as well as the animals which are on stage. </p>")
+  newText ("<p> To help the baby dragon, alongside the shadow, he will see all the animals in the game on the side, as well as the animals which are on stage. </p>")
 ,
  newText ("<p> If there are no animals on stage, there will be a line instead. </p>")
 	       ,
