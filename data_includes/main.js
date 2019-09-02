@@ -2415,7 +2415,7 @@ PennController("experiment" ,
 PennController.SendResults( "send" );
 PennController( "final" ,
 	       newText ("<p> Thank you for your participation! The survey code for MTurk is: z4xw23 <p>. Please copy-paste it to MTurk. <p>")
-	       print()
+	       .print()
 	       ,
       newImage ("dragon.png")
      .print ()
