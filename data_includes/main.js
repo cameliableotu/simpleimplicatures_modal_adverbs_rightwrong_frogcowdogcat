@@ -62,6 +62,17 @@ newText ("<p> Now Merlin is playing the shadow game with a really cute baby drag
 ,
  newText ("<p> If there are no animals on stage, there will be a line instead. </p>")
 	       ,
+ newText ("<p> For instance, in the image below, there are three cats, and none of them is on stage. They all went behind the curtain, but the shadow belongs to only one of them. </p>")
+	  newImage ("catshadowallcats", "catshadowallcats.png")
+	.print (),
+	 newKey(" ")
+        .wait())
+
+;
+PennController("details" ,
+	    defaultText
+	        .print()
+	       ,
   newText ("<p> When the baby dragon guesses the shadow correctly, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrongly, you'll just give him a tiny apple.  </p>")
 ,
 	      newImage("bigapple", "bigapple.png")
