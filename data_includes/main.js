@@ -2424,6 +2424,7 @@ PennController( "final" ,
     ,
     newButton("void")
         .wait()
+	       ,
       newImage ("babydragon.png")
      .print ()
    
