@@ -2414,19 +2414,19 @@ PennController("experiment" ,
 ;
 PennController.SendResults( "send" );
 PennController( "final" ,
-	       newText ("<p> Thank you for your participation! The survey code for MTurk is: z4xw23 <p>. Please copy-paste it to MTurk. </p>")
+	       newText ("<p> Thank you for your participation! The survey code for MTurk is: z4xw23. Please copy-paste it to MTurk. </p>")
 	       .print()
 	       ,
 	 newText("<p> The baby dragon thanks you for the apples, and so does the wizard! Bubbye! </p>")
         .print(),
-      newImage ("babydragon.png")
-     .print ()
-    ,
-    newText("<p><a href='https://www.put.your/platform/confirmation/link.here'> Click here to validate your participation.</a></p>")
+	       newText("<p><a href='https://www.put.your/platform/confirmation/link.here'> Click here to validate your participation.</a></p>")
         .print()
     ,
     newButton("void")
         .wait()
+      newImage ("babydragon.png")
+     .print ()
+   
 	       )
 ;
   
