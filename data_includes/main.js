@@ -2420,9 +2420,6 @@ PennController( "final" ,
 	newImage ("dragon.png")
      .print ()
     ,
-      question ('RG01') ,     
-      html('<p>Your code is <strong>'.value('RG01', 'label').'</strong>.</p>')
-	       ,
     newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>")
         .print()
     ,
