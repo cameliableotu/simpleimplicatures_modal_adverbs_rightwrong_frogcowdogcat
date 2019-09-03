@@ -111,7 +111,7 @@ newText ("<p> Now let's see how you manage. Let's meet a very cute bunny. </p> "
         .wait()
 )
 ;
-PennController("trialbunny" ,
+PennController("trial" ,
 	    defaultText
 	        .print()
 	    
