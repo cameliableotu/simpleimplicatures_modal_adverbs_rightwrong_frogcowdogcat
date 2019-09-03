@@ -451,7 +451,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, it's not the yellow dog! He has just come back in front of the curtain, but the shadow of the dog is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, it's not the yellow dog! The yellow dog has just come back in front of the curtain, but the shadow of the dog is still there in the spotlight.</p>")
 	          ,        
 	     newImage ("yellowdog1","yellowdog1.png")
                .print ()
@@ -664,7 +664,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the red dog either. The red dog has also come back on stage, joining the yellow dog, but the shadow is still there in the spotlight.</p>")
+	       newText ("<p> Look, it's not the red dog either. The red dog has also come back in front of the curtain, joining the yellow dog, but the shadow is still there in the spotlight.</p>")
 	         ,         
 	     newImage ("twodogs1", "twodogs1.png")
                .print ()
@@ -1214,7 +1214,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the purple frog. The purple frog has come back from behind the curtain, joining the blue frog, but the shadow is still there in the spotlight.</p>")
+	       newText ("<p> Look, it's not the purple frog! The purple frog has come back in front of the curtain, joining the blue frog, but the shadow is still there in the spotlight.</p>")
 	         ,         
 	     newImage ("twofrogs", "twofrogs.png")
                .print ()
@@ -1547,7 +1547,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it isn't the green cat! The green cat has come back in front of the curtain but the shadow of the cat is still there.</p>")
+	       newText ("<p> Look, it isn't the green cat! The green cat has come back in front of the curtain but the shadow of the cat is still there in the spotlight.</p>")
 	          ,        
 	     newImage ("greencat","greencat.jpg")
                .print ()
@@ -1760,7 +1760,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the blue cat. The blue cat has come back from behind the curtain, joining the green frog, but the shadow is still there.</p>")
+	       newText ("<p> Look, it's not the blue cat! The blue cat has come back from behind the curtain, joining the green frog, but the shadow is still there in the spotlight.</p>")
 	         ,         
 	     newImage ("twocats", "twocats.jpg")
                .print ()
@@ -2092,7 +2092,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it isn't the orange cow! The orange cow has come back on stage but the shadow of the cow is still there in the spotlight. </p>")
+	       newText ("<p> Look, it isn't the orange cow! The orange cow has come back in front of the curtain but the shadow of the cow is still there in the spotlight. </p>")
 	     newImage ("orangecow", "orangecow.png")
                .print ()
 	       ,
@@ -2303,7 +2303,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the yellow cow! The yellow cow has come back from behind the curtain, joining the orange cow, but the shadow is still there in the spotlight.</p>")
+	       newText ("<p> Look, it's not the yellow cow! The yellow cow has come back in front of curtain, joining the orange cow, but the shadow is still there in the spotlight.</p>")
 	         ,         
 	     newImage ("twocows", "twocows.png")
                .print ()
