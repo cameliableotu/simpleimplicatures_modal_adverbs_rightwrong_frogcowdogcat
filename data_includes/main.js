@@ -1,6 +1,6 @@
 PennController.DebugOff() 
 PennController.ResetPrefix(null);
-PennController.Sequence( "welcome", "details", "trial", "trialbunny", "trialbunny2", "introductionanimals", "experiment", "send" , "final" )
+PennController.Sequence( "welcome", "details", "trial", "trial2", "trialbunny", "trialbunny2", "introductionanimals", "experiment", "send" , "final" )
 ;
 PennController( "welcome" ,
     defaultText
@@ -56,9 +56,9 @@ PennController("details" ,
 	        .print()
 	    
 	       ,
-newText ("<p> Now Merlin is playing the shadow game with a really cute baby dragon, who has to guess whose animal the shadow belongs to. </p>")
+newText ("<p> Now Merlin is playing the shadow game with a cute baby dragon, who has to guess whose animal the shadow belongs to. </p>")
 	,
-  newText ("<p> Alongside the shadow, there will be all the animals in the game on the side, as well as the animals which are in front of the curtain. </p>")
+  newText ("<p> Alongside the shadow, the images show all the animals in the game on the side, as well as the animals which are in front of the curtain. </p>")
 ,
  newText ("<p> If there are no animals in front of the curtain, there will be a line instead. </p>")
 	       ,
@@ -75,8 +75,8 @@ PennController("details" ,
 	       ,
   newText ("<p> When the baby dragon guesses the shadow right, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrongly, you'll just give him a tiny apple.  </p>")
 ,
-	      "<p> Right guess gets BIG APPLE as reward. </p>",
-	      "<p> Wrong guess gets SMALL APPLE as reward. </p>",
+	     newText ( "<p> BIG APPLE for RIGHT GUESS. </p>"),
+	    newText ("<p>  SMALL APPLE for WRONG GUESS. </p>"),
 	       
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -111,7 +111,7 @@ newText ("<p> Now let's see how you manage. Let's meet a very cute bunny. </p> "
         .wait()
 )
 ;
-PennController("trial" ,
+PennController("trial2" ,
 	    defaultText
 	        .print()
 	    
