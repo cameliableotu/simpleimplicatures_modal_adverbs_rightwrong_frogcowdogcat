@@ -75,8 +75,8 @@ PennController("details" ,
 	       ,
   newText ("<p> When the baby dragon guesses the shadow right, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrongly, you'll just give him a tiny apple.  </p>")
 ,
-	      "<p> RIGHT GUESS means BIG APPLE </p>",
-	      "<p> WRONG GUESS means SMALL APPLE </p>",
+	      "<p> Right guess gets BIG APPLE as reward. </p>",
+	      "<p> Wrong guess gets SMALL APPLE as reward. </p>",
 	       
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1760,7 +1760,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the blue cat! The blue cat has come back from behind the curtain, joining the green frog, but the shadow is still there in the spotlight.</p>")
+	       newText ("<p> Look, it's not the blue cat! The blue cat has come back in front of the curtain, joining the green frog, but the shadow is still there in the spotlight.</p>")
 	         ,         
 	     newImage ("twocats", "twocats.jpg")
                .print ()
