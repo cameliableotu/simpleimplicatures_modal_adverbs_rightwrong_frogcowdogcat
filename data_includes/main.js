@@ -75,6 +75,9 @@ PennController("details" ,
 	       ,
   newText ("<p> When the baby dragon guesses the shadow correctly, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrongly, you'll just give him a tiny apple.  </p>")
 ,
+	      "<p> CORRECT GUESS => BIG APPLE </p>",
+	      "<p> INCORRECT GUESS=>  SMALL APPLE </p>",
+	       
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
