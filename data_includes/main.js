@@ -664,7 +664,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the red dog either. The red dog has also come back in front of the curtain, joining the yellow dog, but the shadow is still there in the spotlight.</p>")
+	       newText ("<p> Look, it's not the red dog either! The red dog has also come back in front of the curtain, joining the yellow dog, but the shadow is still there in the spotlight.</p>")
 	         ,         
 	     newImage ("twodogs1", "twodogs1.png")
                .print ()
@@ -1000,7 +1000,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it isn't the blue frog! The blue frog has come back in front of the curtain but the shadow of the frog is still there in the spotlight.</p>")
+	       newText ("<p> Look, it's not the blue frog! The blue frog has come back in front of the curtain but the shadow of the frog is still there in the spotlight.</p>")
 	          ,        
 	     newImage ("bluefrog", "bluefrog.png")
                .print ()
@@ -1547,7 +1547,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it isn't the green cat! The green cat has come back in front of the curtain but the shadow of the cat is still there in the spotlight.</p>")
+	       newText ("<p> Look, it's not the green cat! The green cat has come back in front of the curtain but the shadow of the cat is still there in the spotlight.</p>")
 	          ,        
 	     newImage ("greencat","greencat.jpg")
                .print ()
@@ -2092,7 +2092,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it isn't the orange cow! The orange cow has come back in front of the curtain but the shadow of the cow is still there in the spotlight. </p>")
+	       newText ("<p> Look, it's not the orange cow! The orange cow has come back in front of the curtain but the shadow of the cow is still there in the spotlight. </p>")
 	     newImage ("orangecow", "orangecow.png")
                .print ()
 	       ,
