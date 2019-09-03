@@ -73,10 +73,10 @@ PennController("details" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> When the baby dragon guesses the shadow correctly, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrongly, you'll just give him a tiny apple.  </p>")
+  newText ("<p> When the baby dragon guesses the shadow right, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrongly, you'll just give him a tiny apple.  </p>")
 ,
-	      "<p> CORRECT GUESS means BIG APPLE </p>",
-	      "<p> INCORRECT GUESS means SMALL APPLE </p>",
+	      "<p> RIGHT GUESS means BIG APPLE </p>",
+	      "<p> WRONG GUESS means SMALL APPLE </p>",
 	       
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -301,7 +301,7 @@ PennController("introductionanimals" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Now all the animals have gone behind the curtain. Let's look at the shadow, see what the baby dragon says and reward him.</p>")
+		newText ("<p> Now all the dogs have gone behind the curtain. Let's look at the shadow, see what the baby dragon says and reward him.</p>")
 		,
 		newImage ("dogshadowallanimals","dogshadowallanimals.png")
                .print ()
@@ -2092,8 +2092,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now the shadow of the cow is still there but the orange cow has come back on stage.</p>")
-	          ,        
+	       newText ("<p> Look, it isn't the orange cow! The orange cow has come back on stage but the shadow of the cow is still there in the spotlight. </p>")
 	     newImage ("orangecow", "orangecow.png")
                .print ()
 	       ,
@@ -2304,7 +2303,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the yellow cow. The yellow cow has come back from behind the curtain, joining the orange cow, but the shadow is still there.</p>")
+	       newText ("<p> Look, it's not the yellow cow! The yellow cow has come back from behind the curtain, joining the orange cow, but the shadow is still there in the spotlight.</p>")
 	         ,         
 	     newImage ("twocows", "twocows.png")
                .print ()
