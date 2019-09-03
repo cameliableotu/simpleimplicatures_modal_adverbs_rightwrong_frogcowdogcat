@@ -2093,7 +2093,8 @@ PennController("experiment" ,
 	    defaultText
 	        .print(),
 	       newText ("<p> Look, it's not the orange cow! The orange cow has come back in front of the curtain but the shadow of the cow is still there in the spotlight. </p>")
-	     newImage ("orangecow", "orangecow.png")
+	     ,
+	       newImage ("orangecow", "orangecow.png")
                .print ()
 	       ,
 	       newAudio("cowsounds", "cowsounds.mp3")
