@@ -58,11 +58,11 @@ PennController("details" ,
 	       ,
 newText ("<p> Now Merlin is playing the shadow game with a really cute baby dragon, who has to guess whose animal the shadow belongs to. </p>")
 	,
-  newText ("<p> To help the baby dragon, alongside the shadow, he will see all the animals in the game on the side, as well as the animals which are on stage. </p>")
+  newText ("<p> Alongside the shadow, there will be all the animals in the game on the side, as well as the animals which are in front of the curtain. </p>")
 ,
- newText ("<p> If there are no animals on stage, there will be a line instead. </p>")
+ newText ("<p> If there are no animals in front of the curtain, there will be a line instead. </p>")
 	       ,
- newText ("<p> For instance, in the image below, there are three cats, and none of them is on stage. They all went behind the curtain, but the shadow belongs to only one of them. </p>"),
+ newText ("<p> For instance, in the image below, there are three cats, and none of them is in front of the curtain. They all went behind the curtain, but the shadow belongs to only one of them. </p>"),
 	  newImage ("catshadowallcats", "catshadowallcats.png")
 	.print (),
 	 newKey(" ")
@@ -108,7 +108,6 @@ newText ("<p> Now let's see how you manage. Let's meet a very cute bunny. </p> "
         .wait()
 )
 ;
-
 PennController("trialbunny" ,
 	    defaultText
 	        .print()
@@ -116,6 +115,47 @@ PennController("trialbunny" ,
 	       ,
 	       newText 
 	       ("<p> Hop he goes behind the curtain. The baby dragon sees the following shadow. To reward the dragon, just click on the apple you want to give him. </p>"),
+	      
+	       newImage ("bunnyshadow2", "bunnyshadowallbunnies.png")
+	       .print ( )
+	       ,
+	       newAudio("bunnysounds", "bunnysounds.mp3")
+		.play()
+	       ,
+	       newText ("<p> The baby dragon says: It is a mouse. </p>")
+	       ,
+	       newText ("<p> The baby dragon guessed incorrectly. The shadow does not belong to a mouse, but to a bunny. Hence, you will give the baby dragon a small apple, not a big apple. To reward the dragon, you will click on the small apple.</p>")
+	       ,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+
+PennController("trialbunny" ,
+	    defaultText
+	        .print()
+	    
+	       ,
+	       newText 
+	       ("<p> Now let's see you do it on your own. The baby dragon sees the following shadow. To reward the dragon, just click on the apple you want to give him. </p>"),
 	      
 	       newImage ("bunnyshadow2", "bunnyshadowallbunnies.png")
 	       .print ( )
