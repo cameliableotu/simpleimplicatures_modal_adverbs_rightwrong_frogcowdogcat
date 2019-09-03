@@ -75,7 +75,7 @@ PennController("details" ,
 	       ,
   newText ("<p> When the baby dragon guesses the shadow right, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrongly, you'll just give him a tiny apple.  </p>")
 ,
-	     newText ( "<p> BIG APPLE for RIGHT GUESS. /  SMALL APPLE for WRONG GUESS  </p>"),
+	     newText ( "<p> BIG APPLE for RIGHT GUESS /  SMALL APPLE for WRONG GUESS  </p>"),
 	       
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -116,7 +116,7 @@ PennController("trial2" ,
 	    
 	       ,
 	       newText 
-	       ("<p> Hop he goes behind the curtain. The baby dragon sees the following shadow. To reward the dragon, just click on the apple you want to give him. </p>"),
+	       ("<p> Hop he goes behind the curtain. The baby dragon sees the following shadow. </p>"),
 	      
 	       newImage ("bunnyshadow2", "bunnyshadowallbunnies.png")
 	       .print ( )
@@ -126,7 +126,9 @@ PennController("trial2" ,
 	       ,
 	       newText ("<p> The baby dragon says: It is a mouse. </p>")
 	       ,
-	       newText ("<p> The baby dragon guessed incorrectly. The shadow does not belong to a mouse, but to a bunny. Hence, you will give the baby dragon a small apple, not a big apple. To reward the dragon, you will click on the small apple.</p>")
+	       newText ("<p> The baby dragon guessed incorrectly. The shadow does not belong to a mouse, but to a bunny. </p>"),
+	       newText ("<p> Because of this, you will give the baby dragon a small apple, not a big apple. </p>"),
+	       newText ("<p> To reward the dragon, you will click on the apple which is his reward, in this case, the small apple.</p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
