@@ -676,7 +676,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the red dog has also come back in front of the curtain, joining the yellow dog, but the shadow of the dog is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the red dog has just come back in front of the curtain, joining the yellow dog, but the shadow of the dog is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the red dog either! </p>")
 			,
@@ -686,9 +686,9 @@ PennController("experiment" ,
       newImage ("dogshadowtwodogsonstage", "dogshadowtwodogsonstage.png")
          .print()
     ,
-    newCanvas(1300,800)
+    newCanvas(1200, 350)
         .settings.add( 0 , 0 , getImage("twodogs1") )
-        .settings.add( 150 , 0 , getImage("dogshadowonedogonstage") )
+        .settings.add( 200 , 0 , getImage("dogshadowtwodogsonstage") )
         .print()
 	   
 	       ,
@@ -699,6 +699,7 @@ PennController("experiment" ,
         .wait()
 	       
 	      )
+
 ;
 
 
