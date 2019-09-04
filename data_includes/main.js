@@ -1841,9 +1841,9 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Oh, look, the blue cat has just come back in front of the curtain, joining the green cat, but the shadow of the cat is still there in the spotlight.</p>")
 	          ,    
-	       newText ("<p> So the shadow is not the blue cat! </p>")
+	       newText ("<p> So the shadow is not the blue cat either! </p>")
 			,
-	newImage("bluecat","bluecat.jpg")
+	newImage("twocats","twocats.jpg")
          .print()
     ,
       newImage ("catshadowatwocatsonstage", "catshadowatwocatsonstage.png")
