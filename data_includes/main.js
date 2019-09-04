@@ -458,16 +458,14 @@ PennController("experiment" ,
 	       newText ("<p> So the shadow is not the yellow dog! </p>")
 			,
 	newImage("yellowdog1","yellowdog1.png")
-        .settings.size(200,200)
-        // .print()
+         .print()
     ,
       newImage ("dogshadowonedogonstage", "dogshadowonedogonstage.png")
-        .settings.size(200,200)
-        // .print()
+         .print()
     ,
-    newCanvas(450,200)
+    newCanvas(1000,1000)
         .settings.add( 0 , 0 , getImage("yellowdog1") )
-        .settings.add( 250 , 0 , getImage("dogshadowonedogonstage") )
+        .settings.add( 400 , 0 , getImage("dogshadowonedogonstage") )
         .print()
 	   
 	       ,
