@@ -160,7 +160,7 @@ PennController("trialbunny" ,
 	    
 	       ,
 	       newText 
-	       ("<p> Now let's see you do it on your own. The baby dragon sees the following shadow. To reward the dragon, just click on the apple you want to give him. </p>"),
+	       ("<p> Now let's see how you do it on your own. The baby dragon sees the following shadow. To reward the dragon, just click on the apple you want to give him. </p>"),
 	      
 	       newImage ("bunnyshadow2", "bunnyshadowallbunnies.png")
 	       .print ( )
