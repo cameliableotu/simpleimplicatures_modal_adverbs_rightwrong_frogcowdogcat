@@ -688,7 +688,7 @@ PennController("experiment" ,
     ,
     newCanvas(1200, 350)
         .settings.add( 0 , 0 , getImage("twodogs1") )
-        .settings.add( 600 , 0 , getImage("dogshadowtwodogsonstage") )
+        .settings.add(500 , 0 , getImage("dogshadowtwodogsonstage") )
         .print()
 	   
 	       ,
@@ -1652,7 +1652,7 @@ PennController("experiment" ,
 	          ,    
 	       newText ("<p> So the shadow is not the green cat! </p>")
 			,
-	newImage("greencat","greencat.png")
+	newImage("greencat","greencat.jpg")
          .print()
     ,
       newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
@@ -1877,7 +1877,7 @@ PennController("experiment" ,
 	          ,    
 	       newText ("<p> So the shadow is not the blue cat! </p>")
 			,
-	newImage("bluecat","bluecat.png")
+	newImage("bluecat","bluecat.jpg")
          .print()
     ,
       newImage ("catshadowatwocatsonstage", "catshadowatwocatsonstage.png")
@@ -2443,7 +2443,7 @@ PennController("experiment" ,
 	          ,    
 	       newText ("<p> So the shadow is not the yellow cow either! </p>")
 			,
-	newImage("yellowcow","yellowcow.png")
+	newImage("twocows","twocows.png")
          .print()
     ,
       newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
