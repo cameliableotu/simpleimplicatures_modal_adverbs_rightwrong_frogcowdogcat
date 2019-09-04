@@ -455,7 +455,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Oh, look, the yellow dog has just come back in front of the curtain, but the shadow of the dog is still there in the spotlight.</p>")
 	          ,    
-	       newText ("<p> So the shadow is not the yellow dog! </p>)
+	       newText ("<p> So the shadow is not the yellow dog! </p>")
 			,
 	newImage(("yellowdog1","yellowdog1.png")
         .settings.size(200,200)
