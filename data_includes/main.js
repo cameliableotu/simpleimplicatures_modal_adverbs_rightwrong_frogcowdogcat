@@ -453,7 +453,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the yellow dog has just come back in front of the curtain, but the shadow of the dog is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the yellow dog has just come back in front of the curtain, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the yellow dog! </p>")
 			,
@@ -676,7 +676,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the red dog has just come back in front of the curtain, joining the yellow dog, but the shadow of the dog is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the red dog has just come back in front of the curtain, joining the yellow dog, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the red dog either! </p>")
 			,
@@ -1028,7 +1028,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the blue frog has just come back in front of the curtain, but the shadow of the frog is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the blue frog has just come back in front of the curtain, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the blue frog! </p>")
 			,
@@ -1249,28 +1249,12 @@ newSelector()
     .wait()
 )
 .log( "ID" , getVar("ID") )
-;
 
-PennController("experiment" ,
-	    defaultText
-	        .print(),
-	       newText ("<p> Look, the purple frog has just come back in front of the curtain, joining the blue frog, but the shadow is still there in the spotlight.</p>")
-	         ,         
-	     newImage ("twofrogs", "twofrogs.png")
-               .print ()
-	       ,
-	       newAudio("frogsoundsshort", "frogsoundsshort.mp3")
-		.play()
-	       ,
-	       newKey(" ")
-        .wait()
-	       
-	      )
 ;
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the purple frog has just come back in front of the curtain, joining the blue frog, but the shadow of the frog is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the purple frog has just come back in front of the curtain, joining the blue frog, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the purple frog either! </p>")
 			,
@@ -1614,7 +1598,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the green cat has just come back in front of the curtain, but the shadow of the cat is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the green cat has just come back in front of the curtain, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the green cat! </p>")
 			,
@@ -1839,7 +1823,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the blue cat has just come back in front of the curtain, joining the green cat, but the shadow of the cat is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the blue cat has just come back in front of the curtain, joining the green cat, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the blue cat either! </p>")
 			,
@@ -2182,7 +2166,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, the orange cow has just come back in front of the curtain, but the shadow of the cow is still there in the spotlight.</p>")
+	       newText ("<p> Oh, look, the orange cow has just come back in front of the curtain, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the orange cow! </p>")
 			,
@@ -2405,7 +2389,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, the yellow cow has just come back in front of the curtain, joining the orange cow, but the shadow of the cow is still there in the spotlight.</p>")
+	       newText ("<p> Look, the yellow cow has just come back in front of the curtain, joining the orange cow, but the shadow is still there in the spotlight.</p>")
 	          ,    
 	       newText ("<p> So the shadow is not the yellow cow either! </p>")
 			,
