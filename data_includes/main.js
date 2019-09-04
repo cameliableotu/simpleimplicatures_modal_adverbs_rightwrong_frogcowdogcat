@@ -1624,9 +1624,9 @@ PennController("experiment" ,
       newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
          .print()
     ,
-    newCanvas(1000, 350)
+    newCanvas(1200, 350)
         .settings.add( 0 , 0 , getImage("greencat") )
-        .settings.add( 400 , 0 , getImage("catshadowonecatonstage") )
+        .settings.add( 550 , 0 , getImage("catshadowonecatonstage") )
         .print()
 	   
 	       ,
