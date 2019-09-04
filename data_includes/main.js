@@ -305,7 +305,7 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p> Now all the dogs have gone behind the curtain. Let's look at the shadow, see what the baby dragon says and reward him.</p>")
 		,
-		newImage ("dogshadowallanimals","dogshadowallanimals.png")
+		newImage ("dogshadowalldogs","dogshadowalldogs.png")
                .print ()
 		,
 		newAudio("barking", "barking.mp3")
@@ -340,7 +340,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("dogshadowallanimals","dogshadowallanimals.png")
+		newImage ("dogshadowalldogs","dogshadowalldogs.png")
                .print ()
 		,
 	
@@ -373,7 +373,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("dogshadowallanimals","dogshadowallanimals.png")
+		newImage ("dogshadowalldogs","dogshadowalldogs.png")
                .print ()
 		,
 
@@ -406,7 +406,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("dogshadowallanimals","dogshadowallanimals.png")
+		newImage ("dogshadowalldogs","dogshadowalldogs.png")
                .print ()
 		,
 
