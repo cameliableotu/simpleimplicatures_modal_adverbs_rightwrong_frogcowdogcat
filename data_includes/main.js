@@ -453,10 +453,23 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, it's not the yellow dog! The yellow dog has just come back in front of the curtain, but the shadow of the dog is still there in the spotlight.</p>")
-	          ,        
-	     newImage ("yellowdog1","yellowdog1.png")
-               .print ()
+	       newText ("<p> Oh, look, the yellow dog has just come back in front of the curtain, but the shadow of the dog is still there in the spotlight.</p>")
+	          ,    
+	       newText ("<p> So the shadow is not the yellow dog! </p>)
+			,
+	newImage(("yellowdog1","yellowdog1.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+      newImage ("dogshadowonedogonstage", "dogshadowonedogonstage.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("yellowdog1") )
+        .settings.add( 250 , 0 , getImage("dogshadowonedogonstage") )
+        .print()
+	   
 	       ,
 	       	newAudio("barking", "barking.mp3")
 		.play()
