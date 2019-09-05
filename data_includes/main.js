@@ -463,9 +463,9 @@ PennController("experiment" ,
       newImage ("dogshadowonedogonstage", "dogshadowonedogonstage.png")
          .print()
     ,
-    newCanvas(600, 350)
+    newCanvas(500, 350)
         .settings.add( -200 , 0 , getImage("yellowdog1") )
-        .settings.add( 300 , 0 , getImage("dogshadowonedogonstage") )
+        .settings.add( 100 , 0 , getImage("dogshadowonedogonstage") )
         .print()
 	   
 	       ,
