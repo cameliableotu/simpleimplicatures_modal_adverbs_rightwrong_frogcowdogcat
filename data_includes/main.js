@@ -2616,9 +2616,6 @@ PennController( "final" ,
 	       ,
 	 newText("<p> The baby dragon thanks you for the apples, and so does the wizard! Bubbye! </p>")
         .print(),
-	       newText("<p><a href='https://www.put.your/platform/confirmation/link.here'> Click here to validate your participation.</a></p>")
-        .print()
-    ,
     newButton("void")
         .wait()
 	       )
