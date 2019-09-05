@@ -1870,7 +1870,7 @@ PennController("experiment" ,
 	          ,    
 	       newText ("<p> So the shadow is not the blue cat! And it is not the green cat! </p>")
 			,
-      newImage ("catshadowatwocatsonstage", "catshadowatwocatsonstage.png")
+      newImage ("catshadowtwocatsonstage", "catshadowtwocatsonstage.png")
          .print()
     ,
 	       	newAudio("catsounds", "catsounds.mp3")
@@ -2217,7 +2217,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Very well. Yes, the shadow belongs to a cow indeed. It could be one of the three cows you saw in the beginning.</p>")
 	         ,         
-	     newImage ("threecows1", "threecows1.png")
+	     newImage ("threecows", "threecows.png")
                .print ()
 	       ,
 	       newKey(" ")
