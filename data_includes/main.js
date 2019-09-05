@@ -2452,7 +2452,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
                .print ()
 		,
 
