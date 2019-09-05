@@ -2399,7 +2399,7 @@ PennController("experiment" ,
       newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
          .print()
     ,
-    newCanvas(800, 400)
+    newCanvas(700, 400)
         .settings.add( -200 , 0 , getImage("twocows") )
         .settings.add( 300, 0 , getImage("cowshadowonecowonstage") )
         .print()
