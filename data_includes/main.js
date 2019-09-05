@@ -464,7 +464,7 @@ PennController("experiment" ,
          .print()
     ,
     newCanvas(500, 350)
-        .settings.add( -200 , 0 , getImage("yellowdog1") )
+        .settings.add( -100 , 0 , getImage("yellowdog1") )
         .settings.add( 100 , 0 , getImage("dogshadowonedogonstage") )
         .print()
 	   
@@ -688,7 +688,7 @@ PennController("experiment" ,
     ,
     newCanvas(500, 350)
         .settings.add( -200 , 0 , getImage("twodogs1") )
-        .settings.add(100, 0 , getImage("dogshadowtwodogsonstage") )
+        .settings.add(250, 0 , getImage("dogshadowtwodogsonstage") )
         .print()
 	   
 	       ,
@@ -1609,8 +1609,8 @@ PennController("experiment" ,
          .print()
     ,
     newCanvas(500, 350)
-        .settings.add(-100 , 0 , getImage("greencat") )
-        .settings.add( 200 , 0 , getImage("catshadowonecatonstage") )
+        .settings.add(-150 , 0 , getImage("greencat") )
+        .settings.add( 100 , 0 , getImage("catshadowonecatonstage") )
         .print()
 	   
 	       ,
@@ -1834,8 +1834,8 @@ PennController("experiment" ,
          .print()
     ,
     newCanvas(500, 350)
-        .settings.add(-100 , 0 , getImage("twocats") )
-        .settings.add(300, 0 , getImage("catshadowatwocatsonstage") )
+        .settings.add(-150 , 0 , getImage("twocats") )
+        .settings.add(150, 0 , getImage("catshadowatwocatsonstage") )
         .print()
 	   
 	       ,
@@ -2401,7 +2401,7 @@ PennController("experiment" ,
     ,
     newCanvas(500, 350)
         .settings.add( -200 , 0 , getImage("twocows") )
-        .settings.add( 100, 0 , getImage("cowshadowonecowonstage") )
+        .settings.add( 260, 0 , getImage("cowshadowonecowonstage") )
         .print()
 	   
 	       ,
