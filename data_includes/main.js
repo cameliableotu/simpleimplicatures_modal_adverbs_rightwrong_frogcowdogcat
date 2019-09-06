@@ -502,15 +502,14 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
+		newText ("<p> Now let's see what the baby dragon has to say about the shadow and reward him. </p>")
+	       ,
 		newImage ("dogshadowonedogonstage", "dogshadowonedogonstage.png")
                .print ()
 		,
 		newAudio("barking", "barking.mp3")
 		.play()
 		,
-
-		newText ("<p> Now let's see what the baby dragon has to say about the shadow and reward him. </p>")
-	       ,
 		newText ("<p> Baby Dragon: It is possible that it is the red dog.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
