@@ -300,23 +300,6 @@ PennController("introductionanimals" ,
 	       
 	      )
 ;
-PennController("introductionanimals" ,
-	    defaultText
-	        .print(),
-	       newText ("<p> And a group of three dogs. </p>")
-	    ,
-	                  
-	     newImage ("threedogs", "threedogs.png")
-               .print ()
-	       ,
-	        newAudio("barking", "barking.mp3")
-		.play()
-	       ,
-	       newKey(" ")
-        .wait()
-	       
-	      )	
-;
 PennController("experiment" ,
 	    defaultText
 	        .print()
